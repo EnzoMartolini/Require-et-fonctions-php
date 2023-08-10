@@ -1,0 +1,84 @@
+body {
+    background-color: beige;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#container_choice{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center
+}
+
+[class$="_choice"] {
+    position: relative;
+    display:flex;
+    width: 70%;
+    justify-content: space-around;
+
+}
+
+[class^="container"] {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+div.titre {
+    display: flex;
+    padding-left: 2vh;
+    width: 40%;
+    align-items: flex-start;
+}
+
+         
+#btn {
+    width: 25vh;
+    background: red;
+    margin: 10px;
+    padding: 3vh 0vh;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;            
+    border-radius: 30px;
+    margin-top: 10vh;
+
+  }
+
+.msg {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5vh;
+  }
+
+  .img {
+        position: relative;
+      }
+
+
+  .superposition {
+    color: aliceblue;
+    border-radius: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.3);
+    opacity: 0;
+    transition: opacity .5s ease;
+  }
+
+  .img:hover .superposition {
+
+    opacity: 1;
+  }

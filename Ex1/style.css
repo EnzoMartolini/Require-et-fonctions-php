@@ -1,0 +1,34 @@
+nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.nav-header {
+    background-color: aqua;
+}
+
+nav.nav-link ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+ .active {
+color:red;
+text-decoration: underline;
+ }
+
+a {
+    margin: 20px;
+    text-decoration: none;
+}
+
+p {
+    font-size: medium;
+}
+
+nav-footer {
+    font-size: small;
+}
